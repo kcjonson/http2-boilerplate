@@ -8,10 +8,6 @@ app.get('/', function (req, res) {
 	res.sendFile('./app.html', { root : __dirname})
 })
 
-app.get('/conbats.gif', function (req, res) {
-	res.sendFile('./conbats.gif', { root : __dirname})
-})
-
 app.get('/images/:id', function (req, res) {
 	res.sendFile('./images/' + req.params.id, { root : __dirname})
 })
