@@ -29,6 +29,7 @@ node_modules
 
 # OSX
 .ds_store
+.sublime-workspace
 
 # Security 
 *.crt
